@@ -30,5 +30,10 @@ public class productController {
         return "edit product detiles here";
     }
 
+    @PostMapping("/serch")
+    public String serch(){
+        return "Serch product detiles here";
+    }
+
 
 }
