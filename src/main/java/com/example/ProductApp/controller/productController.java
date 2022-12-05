@@ -24,4 +24,11 @@ public class productController {
         return "view product detiles here";
     }
 
+
+    @PostMapping("/edit")
+    public String edit(){
+        return "edit product detiles here";
+    }
+
+
 }
